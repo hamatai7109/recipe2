@@ -1,0 +1,144 @@
+body{
+    font-family: Helvetica Neue, Arial, Hiragino Sans, Meiryo, sans-serif;
+    margin: 0;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 834px) {
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
+}    
+
+.menu-img{
+    height: 700px;
+    width: 50%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 834px) {
+    .menu-img{
+        width: 100%;
+    }
+}    
+
+.menu-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 620px) {
+    .menu-details{
+        width: 90%;
+    }
+}    
+
+.menu-title{
+    font-size: 28px;
+    margin-left: 30px;
+}
+
+.menu-intro{
+    margin-left: 30px;
+    margin-right: 5%;
+}
+
+.menu-ingredients{
+    font-size: 22px;
+    margin-left: 30px;
+    border-bottom: 1px solid gray;
+    margin-right: 6%;
+    margin-bottom: 10px;
+}
+
+.text-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 6%;
+    border-bottom: 1px solid rgb(197, 195, 195);
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.menu-recipe{
+    font-size: 22px;
+    margin-left: 30px;
+    border-bottom: 1px solid gray;
+    margin-right: 6%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+ol{
+    margin-left: 8px;
+    margin-right: 6%;
+    font-size: 15px;
+    line-height: 32px;
+
+}
+
+ol li{
+    border-bottom: 1px solid rgb(197, 195, 195);
+}
+
+.more-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.detail-button{
+    text-align: center;
+    height: 10%;
+    width: 15%;
+    padding: 20px;
+    font-size: 15px;
+    border: 1px solid gray;
+}
+
+@media screen and (max-width: 834px) {
+    .detail-button{
+        width: 30%;
+    }
+}    
+
+/*footer*/
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.sns-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0;
+    padding-top: 10px;
+}
+
+.sns-links li{
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 13px;
+    list-style: none;
+}
+
+footer p{
+    font-size: 13px;
+    margin-top: 0px;
+}
